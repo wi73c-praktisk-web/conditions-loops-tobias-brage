@@ -18,3 +18,13 @@
 * `%` giver rest værdien
 * `&&` logisk og i en løkke
 * `||` logsik eller i en løkke
+
+## for løkke
+
+En `for` løkke kører et stykke kode indtil kriteriet er opfyldt, man skriver alle oplysninger som variabler og kriterier i samme linje i modsætning til f.eks. en while løkke hvor man på forhånd kan oprette en variable.
+
+```javascript
+for(var year = 2017; year >= 1917; year--){
+    console.log(year);
+ }
+```
